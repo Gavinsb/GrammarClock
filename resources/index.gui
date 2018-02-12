@@ -1,0 +1,46 @@
+<svg class="background">
+  <section x="0" y="0" width="100%" height="50%">
+   <rect fill="gray" width="100%" height="100%"/>  
+   <rect fill="dimgray" width="99%" height="99%"/>  
+      <textarea x = "2.5%" width="95%" height="100%" id="myTime" text-anchor="middle" rows="2"  font-family="System-Regular" fill="white" font-size="32" display-align = "center" > 
+        XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+        XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+        XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+        XXXXXXXXXXXXXXXXXX XXXXXXXXXXXXXXXXXXXXX
+      </textarea>
+    
+  </section>
+ 
+  <section x="0" y="50%" width="100%" height="50%">
+    <section x="0" y="0" width="25%" height="50%">
+      <rect id="HRinfo" fill="red" width="100%" height="100%"/>     
+      <text id="HR" font-family="System-Regular" x="50%" width="100%" fill="white" font-size="25" text-anchor = "middle">XXX</text>
+    </section>
+    <section x="0" y="50%" width="25%" height="50%">
+      <rect id="RHRinfo" fill="blue" width="100%" height="100%"/>     
+      <text id="RHR" font-family="System-Regular"x="50%" width="100%" fill="white" font-size="25" text-anchor = "middle">XXX</text>
+    </section>  
+  
+  
+    <section x="50%" y="0" width="50%" height="50%">
+      <rect id="STEPSBAR" fill="darkolivegreen" width="100%" height="100%"/>     
+      <text id="STEPS" font-family="System-Regular" x="50%" width="100%" fill="white" font-size="25" text-anchor = "middle">XXXXX</text>
+    </section>
+    
+    <section x="25%" y="0" width="25%" height="50%">
+      <rect id="inforect" fill="darkolivegreen" width="100%" height="100%"/>     
+      <text id="info" font-family="System-Regular" x="50%" width="100%" fill="white" font-size="25" text-anchor = "middle">XXXXX</text>
+    </section>
+  
+    <section x="50%" y="50%" width="50%" height="50%">
+      <rect id="WEIGHTinfo" fill="fb-yellow-press" width="100%" height="100%"/>     
+      <text id="WEIGHT" font-family="System-Regular" x="50%" width="100%" height="100%" fill="white" font-size="25" text-anchor = "middle">XXXXXXXX</text>
+    </section>
+       
+    <section x="25%" y="50%" width="25%" height="50%">
+      <rect id="BLinfo" fill="fb-dark-gray" width="100%" height="100%"/>     
+      <text id="BL" font-family="System-Regular" x="50%" width="100%" height="100%" fill="white" font-size="25" text-anchor = "middle">XXX</text>
+    </section>    
+   
+  </section>
+</svg>

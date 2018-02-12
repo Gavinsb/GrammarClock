@@ -1,0 +1,19 @@
+{
+  "fitbit": {
+    "appUUID": "20ce7b77-1de3-41a2-94a7-b21e2c52152c",
+    "appType": "clockface",
+    "appDisplayName": "GrammarClock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate"
+    ],
+    "i18n": {
+      "en": {
+        "name": "GrammarClock"
+      }
+    }
+  }
+}
