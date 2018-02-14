@@ -56,9 +56,9 @@ function updateClock() {
     myTime.text = "It's " + minutetoword(mins) + " " + hourtoword(hours, mins);
     myinfo.text = now.getDate() + "/" + ( now.getMonth() + 1) ;
     util.debuginfo("Day:" + now.getDate(),debug);
-    util.debuginfo("Month:" + ( now.getMonth() + 1),debug)
-    console.log();
-    console.log("In update clock:" + myTime.text );
+    util.debuginfo("Month:" + ( now.getMonth() + 1),debug);
+    util.debuginfo("In update clock:" + myTime.text,debug);
+ 
     hrm.start();
 }
 
