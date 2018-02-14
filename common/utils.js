@@ -60,3 +60,8 @@ export function colourStat(iPercentage)
     }
   }
 }
+
+export function debuginfo(message,log)
+{
+    if (log = true)
+    {
