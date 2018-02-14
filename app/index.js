@@ -18,6 +18,8 @@ var minuteTiming = ["exactly","one","two","three","four","five","six","seven","e
                     "sixteen","seventeen","eighteen","nineteen","twenty","twenty-one","twenty-two","twenty-three","twenty-four","twenty-five","twenty-six","twenty-seven",
                     "twenty-eight","twenty-nine","half"];
 
+// Change this variable if concole log messages are required.
+var debug = false;
 
 // Update the clock every minute
 console.log("In application");
