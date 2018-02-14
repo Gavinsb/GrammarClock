@@ -22,9 +22,10 @@ var minuteTiming = ["exactly","one","two","three","four","five","six","seven","e
 var debug = false;
 util.debufinfo("In application",debug);
 // Update the clock every minute
-// This ensure clock has very minimal usage 
+// This ensure clockface has very light impact on battery life 
 clock.granularity = "minutes";
 var hrm = new HeartRateSensor();
+// Do initial heartrate reading 
 hrm.start();
 
 // Get documents handle
