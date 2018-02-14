@@ -20,9 +20,9 @@ var minuteTiming = ["exactly","one","two","three","four","five","six","seven","e
 
 // Change this variable if concole log messages are required.
 var debug = false;
-
+util.debufinfo("In application",debug);
 // Update the clock every minute
-(debug = true) ? console.log("In application") : ;
+
 clock.granularity = "minutes";
 var hrm = new HeartRateSensor();
 hrm.start();
