@@ -20,7 +20,7 @@ var minuteTiming = ["exactly","one","two","three","four","five","six","seven","e
 
 // Change this variable if concole log messages are required.
 var debug = false;
-util.debufinfo("In application",debug);
+util.debuinfo("In application",debug);
 // Update the clock every minute
 // This ensure clockface has very light impact on battery life 
 clock.granularity = "minutes";
@@ -28,7 +28,7 @@ var hrm = new HeartRateSensor();
 // Do initial heartrate reading 
 hrm.start();
 
-// Get documents handle
+// Get documents handles so that information can be updated as required
 let myTime = document.getElementById("myTime");
 let myHR = document.getElementById("HR");
 let myHRinfo = document.getElementById("HRinfo");
@@ -55,6 +55,7 @@ function updateClock() {
 //    myTime.text = "It's " + minutetoword(mins) + " " + hourtoword(hours, mins) + " on " + day + " the " + wordday + " of " + month + ", " + now.getFullYear();
     myTime.text = "It's " + minutetoword(mins) + " " + hourtoword(hours, mins);
     myinfo.text = now.getDate() + "/" + ( now.getMonth() + 1) ;
+    util.
     console.log("Day:" + now.getDate());
     console.log("Month:" + ( now.getMonth() + 1));
     console.log("In update clock:" + myTime.text );
