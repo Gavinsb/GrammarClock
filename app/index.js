@@ -20,7 +20,7 @@ var minuteTiming = ["exactly","one","two","three","four","five","six","seven","e
 
 // Change this variable if concole log messages are required.
 var debug = false;
-util.debuinfo("In application",debug);
+util.debuginfo("In application",debug);
 // Update the clock every minute
 // This ensure clockface has very light impact on battery life 
 clock.granularity = "minutes";
@@ -55,9 +55,9 @@ function updateClock() {
 //    myTime.text = "It's " + minutetoword(mins) + " " + hourtoword(hours, mins) + " on " + day + " the " + wordday + " of " + month + ", " + now.getFullYear();
     myTime.text = "It's " + minutetoword(mins) + " " + hourtoword(hours, mins);
     myinfo.text = now.getDate() + "/" + ( now.getMonth() + 1) ;
-    util.
-    console.log("Day:" + now.getDate());
-    console.log("Month:" + ( now.getMonth() + 1));
+    util.debuginfo("Day:" + now.getDate(),debug);
+    util.debuginfo("Month:" + ( now.getMonth() + 1),debug)
+    console.log();
     console.log("In update clock:" + myTime.text );
     hrm.start();
 }
