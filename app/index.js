@@ -53,7 +53,7 @@ function updateClock() {
 
     // Set up the time string.
 //    myTime.text = "It's " + minutetoword(mins) + " " + hourtoword(hours, mins) + " on " + day + " the " + wordday + " of " + month + ", " + now.getFullYear();
-    myTime.text = "It's " + minutetoword(mins) + " " + hourtoword(hours, mins);
+    myTime.text = minutetoword(mins) + " " + hourtoword(hours, mins);
     myinfo.text = now.getDate() + "/" + ( now.getMonth() + 1) ;
     util.debuginfo("Day:" + now.getDate(),debug);
     util.debuginfo("Month:" + ( now.getMonth() + 1),debug);
